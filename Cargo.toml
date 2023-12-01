@@ -1,0 +1,9 @@
+[workspace.lint.rust]
+unsafe_code = "forbid"
+
+[workspace]
+resolver = "2"
+members = ["day-*"]
+
+[workspace.dependencies]
+itertools = "0.12.0"
